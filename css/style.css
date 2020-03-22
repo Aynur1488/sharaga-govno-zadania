@@ -1,0 +1,175 @@
+body {
+	background-color: #b17e4f;
+	font-family:Trebuchet MS;
+}
+p {
+	text-align:justify;
+    font-size:15px;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom:40px;
+}
+.info p{
+    margin-top: 0px;	
+}
+aside a {
+	color:#a8b568;
+	text-decoration:none;
+}
+section a {
+	color:#b7c572;
+	text-decoration:none;
+}
+section h1 {
+	color:#9d663f;
+	font-size:43px;
+	margin:0px;
+}
+h1 {
+	color: white;
+	font-size:40px;
+	margin:10px 25px;
+}
+h3 {
+	color:white;
+	background-color:#5d9ebd;
+	padding:15px;
+	font-size:25px;
+	margin:5px 10px;
+}
+
+.all_site {
+	width: 1000px; 
+	margin: 0 auto;	
+	}
+.all {
+	background-color:white;
+	padding:15px; 
+}
+nav ul {
+ 	list-style:none;
+ 	display:flex;
+ 	justify-content:space-around;
+ 	padding:0px 0px 15px 0px;
+ 	margin:0;
+ }
+nav li {
+ 	
+ 	background-color:#2b2b2b;
+ 	color:#fff;
+ 	display:flex;
+ 	flex-grow:1;
+ 	justify-content:center;
+ }
+li > a {
+ 	color:white;
+ 	text-decoration:none;
+ 	padding:20px 75px;
+ 	font-size:12px;
+
+ }
+li:hover{
+ 	background-color:#1b3039;
+ }
+img {
+ 	width: 100%;
+ }
+.content {
+     display: flex;
+}
+section {
+	width: 650px;
+	padding:0px 30px 0px 15px;
+
+}
+.aside_block {
+	background-color:#efede5;
+	width: 300px;
+	height: auto;
+	padding:5px 0px 10px 0px;
+	margin-top:15px;
+    /*ay*/	 
+}
+.aside_block p {
+	margin-top: 0px;
+    margin-bottom: 0px; 
+}
+footer {
+	margin:30px 0px 0px 0px;
+	background-color:#d1e4a7;
+	display:flex;
+	justify-content:center;
+}
+footer p {
+	color:#43524e;
+}
+footer a {
+	color:#97a556;
+	text-decoration:none;
+}
+.aside_block_href {
+	margin:20px;
+}
+.aside_block_href hr {
+	height:1px;
+	border:none;
+	background-color:#bbbdb1;
+}
+/*n*/
+@media (min-width: 768px) and (max-width: 1199px) {
+.all_site {
+	width: auto; 
+	margin: 0 auto;	
+	}
+.content {
+     display: block;
+}
+section {
+	width: auto;
+	padding:0px 30px 0px 15px;
+
+}
+aside {
+	display:flex;
+	justify-content:space-around;
+}
+}
+@media only screen and (max-device-width:767px){
+.all_site {
+	width: auto; 
+	margin: 0 auto;	
+	}
+nav ul {
+ 	list-style:none;
+ 	display:block;
+ 	justify-content:space-around;
+ 	padding:0px 0px 15px 0px;
+ 	margin:0;
+}
+li > a {
+ 	color:white;
+ 	text-decoration:none;
+ 	padding:20px 75px;
+ 	font-size:25px;
+}
+aside {
+	display:block;	
+}
+.aside_block {
+	width:auto;
+	margin: 0 auto;
+}
+section {
+	padding:0px 15px;
+}
+h1 {
+	font-size:70px;
+}
+footer p {
+	font-size:30px;
+}
+.info p {
+	font-size:13px;
+}	
+}
+/*ur*/ 
